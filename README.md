@@ -11,3 +11,9 @@ in react for  achive memonization  use useMemo hook and useCallback hook
 useMemo hook syntax is same as useEffect , it take one function and dependency. function  which call when dependency is matched ,
 
 
+
+
+useMemo and useCallback hooks are similar. the main difference is  that useMemo return a memonized value and useCallback return a memoized function.
+
+
+refrential equility a term used in react   in this term when page is re-render then all function re-create  whenever in function is changed or not so prevent this issue use useCallback hook
